@@ -76,7 +76,7 @@ const Formulario = () => {
                     </div>
                   ) : null
                 }
-              </div>
+              </div>https://cv-alexis-campomanes.netlify.app/https://cv-alexis-campomanes.netlify.app/
                   <button className='f-btn' type='submit'>sign in </button>
                     <div className='f-forgot'>
                       <span>
