@@ -1,0 +1,96 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 20px;
+    gap: 5px;
+    .logo{
+        border-radius: 100%;
+        background-color: purple;
+        padding: 7px;
+    }
+    .signIn{
+        font-size: 22px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        .form-conteiner{
+            display: flex;
+            justify-content:center;
+            align-items:stretch;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+            width: 100%;
+            input{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border-radius: 5px;
+                outline: none;
+                border: 1px solid silver;
+                font-size: 16px;
+                width: auto;
+                &:hover{
+                    border: 1px solid black;
+                }
+            }
+        }
+        .f-btn{
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            background-color:#1976d2;
+            padding: 10px 0px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 5px;
+            margin: 16px 0px 6px 0px;
+            &:hover{
+                cursor: pointer;
+                border: 1px solid #1976d2;
+                background-color: white;
+                color: #1976d2;
+                
+            }
+        }
+        .f-check{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .f-forgot{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 12px;
+            gap: 5px;
+            color: #1976d2 ;
+            text-decoration: underline;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .copyright{
+        display: flex;
+        margin: 64px 0px 32px 0px;
+        font-size: 14px;
+        opacity: 0.6;
+        .website{
+            text-decoration: underline;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
